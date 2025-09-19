@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 class ColorApp {
-  static const Color whiteFF = Color(0xFFFFFFFF);
-  static const Color blue56 = Color(0xFF5669FF);
-  static const Color whiteF4 = Color(0xFFF4EBDC);
-  static const Color black0F = Color(0xFF0F0F0F);
-  static const Color primaryWhiteF2 = Color(0xFFF2FEFF);
-  static const Color primaryDarkBlue10 = Color(0xFF101127);
-  static const Color whiteF0 = Color(0xFFF0F0F0);
-  static const Color black1C = Color(0xFF1C1C1C);
-  static const Color red = Color(0xFFD80027);
-  static const Color gray = Color(0xFF7B7B7B);
-  static const Color transparent = Colors.transparent;
+  static const Color white = Color(0xFFFFFFFF);
+  static const Color whiteTextColor = Color(0xFFF4EBDC);
+  static const Color primaryLight = Color(0xFF5669FF);
+  static const Color primaryDark = Color(0xFF101127);
+  static const Color whiteBgColor = Color(0xFFF0F0F0);
+  static const Color blackColor = Color(0xFF1C1C1C);
+  static const Color redColor = Color(0xFFD80027);
+  static const Color pinkColor = Color(0xFFFF5659);
+  static const Color grayColor = Color(0xFF7B7B7B);
+  static const Color transparentColor = Colors.transparent;
 }
