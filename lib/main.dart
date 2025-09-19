@@ -21,6 +21,7 @@ class EventApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     var languageProvider = Provider.of<LanguageProvider>(context);
     var themeProvider = Provider.of<ThemeProvider>(context);
     return MaterialApp(
@@ -39,5 +40,8 @@ class EventApp extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
     );
+
+    return const Placeholder(color: Colors.black,);
+
   }
 }
